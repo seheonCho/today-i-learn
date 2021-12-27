@@ -1,6 +1,4 @@
-package learn.thread;
-
-import java.util.StringTokenizer;
+package java.thread;
 
 public class RunSupportThreads {
 
