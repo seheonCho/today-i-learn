@@ -183,4 +183,31 @@ ex)
 - StringBuffer (Thread safe) 
 - StringBuilder (Not Thread safe)
 
-//TODO 쓰레드 통제 메소드...
+##
+
+쓰레드를 통제하는 메소드들
+
+|리턴 타입     | 메소드 이름 및 매개 변수 | 설명            |
+|-------------|----------------------|---------------|
+|Thread.State | getState()           |쓰레드의 상태 확인 |
+|void|join()|수행중인 쓰레드가 중지할 때까지 대기|
+|void|join(long millis, int nanos)|첫 번째 매개 변수에 지정되 ㄴ시간(1/1,000초) 두 번째 매개 변수에 지정되 ㄴ시간(1/1,000,000,000초) 만큼 대기한다.|
+|void |interrupt()|수행중인 쓰레드에 중지 요청을 한다.|
+
+
+Thread.State ( 쓰레드 상태 )
+
+|설명|의미|
+|---|-----|
+|NEW|쓰레드 객체는 생성되었지만, 아직 시작되지는 않은 상태|
+|RUNNABLE|쓰레드가 실행중인 상태|
+|BLOCKED|쓰레드가 실행 중지 상태, 모니터 락(monitor lock)이 풀리기를 기다리는 상태|
+|WAITING|쓰레드가 대기중인 상태|
+|TIME_WAITING|특정 시간만큼 쓰레드가 대기중인 상태|
+|TERMINATED|쓰레드가 종료된 상태|
+
+어떤 쓰레드이건 간에 NEW -> "상태" -> TERMINATED의 라이프 사이클을 가짐.
+
+"상태" -> NEW, TERMINATED가 아닌 모든 다른 상태.
+
+
