@@ -1,4 +1,4 @@
-package java.thread;
+package learnJava.thread;
 
 public class RunSupportThreads {
 
