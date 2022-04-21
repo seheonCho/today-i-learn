@@ -36,6 +36,10 @@ public class InitClass {
     static {
         System.out.println("end static...");
     }
+    
+    static int sumNumber(int a, int b) {
+        return a + b;
+    }
 
 }
 
@@ -43,6 +47,7 @@ public class LearnStatic {
 
     public static void main(String[] args) {
         System.out.println(InitClass.TEST_NUMBER);
+        System.out.println(InitClass.sumNumber(1, 2));
     }
 
 }
@@ -52,4 +57,5 @@ start static...
 100
 end static...
 100
+3
 ```
