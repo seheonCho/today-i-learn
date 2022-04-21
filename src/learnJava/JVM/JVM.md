@@ -48,7 +48,7 @@ JVM 은 많은 하드웨어 및 소프트웨어 플랫폼에서 사용할 수 �
 - 현재 실행중인 Java 가상 머신 명령의 주소가 포함된다.
 - Thread 마다 생성
 
-6. Native Method Stack
+5. Native Method Stack
 - 응용프로그램에서 필요한 모든 `native` 메서드를 포함 
 - Thread 마다 생성
 
