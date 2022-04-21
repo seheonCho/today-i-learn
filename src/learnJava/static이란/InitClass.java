@@ -17,4 +17,8 @@ public class InitClass {
         System.out.println("end static..");
     }
 
+    static int sumNumber(int a, int b) {
+        return a + b;
+    }
+
 }
