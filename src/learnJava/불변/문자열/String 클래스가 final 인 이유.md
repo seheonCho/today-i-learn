@@ -1,7 +1,7 @@
 
 ## String 클래스가 final 인 이유
 
-### 1. 캐싱
+### 1. 캐싱 (String Constant Pool) ⭐️
 
 JVM 이 String Constant Pool 영역을 만들고, String 리터럴로 생성된 객체를 공유하여 메모리 사용을 최적화 합니다.
 
