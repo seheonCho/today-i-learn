@@ -66,6 +66,8 @@ https://www.mimul.com/blog/why-string-class-has-made-immutable-or-final-java/
 
 https://www.baeldung.com/java-string-pool#conclusion
 
+https://www.baeldung.com/java-string-constant-pool-heap-stack
+
 https://hayeon17kim.github.io/posts/200810-21/
 
 https://wildeveloperetrain.tistory.com/34
