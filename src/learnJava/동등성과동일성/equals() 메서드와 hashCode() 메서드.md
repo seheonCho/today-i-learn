@@ -40,4 +40,13 @@ public static void main(String[] args) {
 ### 예제 설명
 1. equals(), hashCode() 메서드를 모두 오버라이딩 하지 않은, Member 클래스 끼리의 비교는 기준이 있지 않다.
 2. equals() 메서드를 오버라이딩 한 MemberWithEquals 클래스의 비교는 동등성 확인이 된다.
-3. equals(), hashCode() 메서드를 모두 오버라이딩 한 MemberWithEqualsAndHashCode 클래스는 동등성 및 동일성 확인이 되기 때문에, HashMap, HashSet 등 Hash 
+3. equals(), hashCode() 메서드를 모두 오버라이딩 한 MemberWithEqualsAndHashCode 클래스는 동등성 및 동일성 확인이 되기 때문에, HashMap, HashSet 등 Hash
+
+
+출처
+
+https://www.baeldung.com/java-equals-hashcode-contracts
+
+https://stackoverflow.com/questions/2265503/why-do-i-need-to-override-the-equals-and-hashcode-methods-in-java
+
+https://jisooo.tistory.com/entry/java-hashcode%EC%99%80-equals-%EB%A9%94%EC%84%9C%EB%93%9C%EB%8A%94-%EC%96%B8%EC%A0%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B3%A0-%EC%99%9C-%EC%82%AC%EC%9A%A9%ED%95%A0%EA%B9%8C
