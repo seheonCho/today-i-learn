@@ -9,11 +9,12 @@
 - null 이 아닌 x 라는 객체의 x.equals(x) 의 결과는 항상 true 이어야 한다.
 2. 대칭성 (symmetric)
 - null 이 아닌 x 와 y 객체가 잇을 때 x.equals(y) 가 true 라면, y.equals(x) 도 반드시 true 이어야 한다.
-3. 타동적 
+3. 타동적 (transitive)
 - null 이 아닌 x, y, z 가 있을 때 x.equals(y) 가 true 이고, y.equals(z) 가 true 라면, x.equals(z)는 반드시 true 를 리턴해야 한다.
 4. 일관 (consistent)
 - null 이 아닌 x와 y가 있을 때 객체가 변경되지 않은 상황에서는 몇 번을 호출하더라도 x.equals(y) 의 결과는 항상 true 이거나 항상 false 이어야 한다.
-5. null 과 비교시 결과가 false 이어야 한다.
+5. null 과의 비교
+   1. null 과 비교시 결과가 항상 false 이어야 한다.
 
 ### `equals()` 를 재정의 하지 않는다면,
   - `hashCode()` 가 만든 해시값을 이용해, 객체가 저장된 버킷을 찾을 수는 있지만, 해당 객체가 자신과 같은 객체인지 값을 비교할 수 없기 때문에, `null`을 `return` 한다.
