@@ -80,6 +80,8 @@ JVM 에서 할당된 메모리 영역.
 
 출처
 
+https://www.geeksforgeeks.org/jvm-works-jvm-architecture/
+
 https://homoefficio.github.io/2019/01/31/Back-to-the-Essence-Java-컴파일에서-실행까지-2/
 
 https://velog.io/@dion/백기선님-온라인-스터디-1주차-JVM은-무엇이며-자바-코드는-어떻게-실행하는-것인가
